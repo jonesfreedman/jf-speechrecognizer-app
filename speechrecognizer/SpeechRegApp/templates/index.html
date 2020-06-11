@@ -1,4 +1,6 @@
 {% block content %}
+{% load static %}
 {% include 'links.html' %}
-<button class="btn btn-primary">Start</button>
+<a href="{% url 'speech' %}" class="btn btn-primary btn-sm" target="_blank">Go to
+    Speech</a>
 {% endblock %}

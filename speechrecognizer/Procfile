@@ -1,0 +1,1 @@
+web: gunicorn speechrecognizer.wsgi --log-file -

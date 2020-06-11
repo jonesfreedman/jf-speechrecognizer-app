@@ -25,7 +25,7 @@ SECRET_KEY = '9$5g60g-ea@x3#2=#sd-eepw*v2z-yreib*4qt%b(eeti*6!uu'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pyspeech.cfapps.io']
 
 
 # Application definition
