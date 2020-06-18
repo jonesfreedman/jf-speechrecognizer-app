@@ -15,10 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from SpeechRegApp.views import index,speech
+from SpeechRegApp.views import index, speech
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('speech', speech, name = 'speech'),
-    path('', index, name = 'index'),
+    path("admin/", admin.site.urls),
+    path("speech", speech, name="speech"),
+    path("", index, name="index"),
 ]
+
+# from SpeechRegApp.speech import SpeechRecognition
+
+# SpeechRecognition()
